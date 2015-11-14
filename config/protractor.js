@@ -1,12 +1,14 @@
+var config = require('./config')();
+
 exports.config = {
 	specs: ['../test/e2e/**/*.js'],
 	onPrepare: function() {
 		browser.driver.get('http://localhost:3000/#/auth');
 		browser.driver.findElement(by.id('entrar')).click();
 		browser.driver.findElement(by.id('login_field'))
-		.sendKeys('isanioweb@gmail.com');
+		.sendKeys(config.seleniumUser);
 		browser.driver.findElement(by.id('password'))
-		.sendKeys('e5dbbcea5ce7e29');
+		.sendKeys(config.seleniumUserPassword);
 		browser.driver.findElement(by.name('commit')).click();
 	}
 };
