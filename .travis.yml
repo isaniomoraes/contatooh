@@ -28,7 +28,7 @@ deploy:
   password:
     secure: HeCZHBIgNa8+OToHDbXtKKMdJvSGcCrWF5wecaHLALvQHlXI/a5jHppS+rs/k3OmFj7Bx3yLnaordKBFG8cEczWt39TAPkz9JvCcU8ZM84dE2stMVoCkkBxOZ3kdkz+5DPmdy9ftq/ihilDMOaSrNxQ/LFZyyJDTJ1r+wGNM2FejsksTgDRokXwkqT+ifSHew6+MxaRkwidpk+jc+1JeU3AK2JKqzFos1UTeyVDgVNzkjUGLeUs35cA5u3Tpiv2TleWyLxUHsHHc827SMrmKVK+ahftDH3X0xlW3lUTUThH7GdHpWK4sqRQHi6vkHvmfgSwnVea9vGEdk/o8CsJCtK282liy0487H0k0EHp4cfP6Fhzl8RjrR3lWH1bOzuywc9P+rdzGAny+HIaleIDIhBvSENBwFy0WTR/Z+utU1bta2UI1R9TB1iDeo+QE6JDnURb81DUmRiBaLkiWs5DRY3rZttlQV946IeMZgo4WI3roW+Y70+aA8YHq1JIyYJlQI2qUKCors7PZtyahZT6IohrRiVqpFOENPjMqhtCwbQtszWYm74vPFONe23bY8jn33hshxgGMnh6kowsp5kVKLS4LhY0wAyYjvBpvgRUSVw13Qp6Er3ZFkA5yl3oGTNhi0M4vl9tZdNQvNQIXntWTOTwVHYCnrxk5iMezGBPOc5A=
   app: contatooh
-  domain: contatooh-isanio.rhcloud.com
+  domain: isanio
   on:
     repo: isaniomoraes/contatooh
     branch: master
